@@ -1,0 +1,13 @@
+{
+  "name": "resumeapi_version_1",
+  "version": "1.0.0",
+  "description": "A web app version of John Browns Resume exposed over a REST API",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jpb4815/ResumeAPI.git"
+  },
+  "author": "John Brown",
+  "license": "MIT",
+  "devDependencies": {
+  }
+}
