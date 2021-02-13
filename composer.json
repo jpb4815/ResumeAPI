@@ -9,6 +9,11 @@
         "silverstripe-themes/simple": "~3.2.0",
         "silverstripe/login-forms": "4.3.0@stable"
     },
+    "autoload": {
+        "psr-4": {
+            "SilverStripe\\ResumeAPI\\" : "src/"
+        }
+    },
     "require-dev": {
         "sminnee/phpunit": "^5.7",
         "sminnee/phpunit-mock-objects": "^3.4.5"

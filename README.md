@@ -15,6 +15,7 @@ Create the .env file. This is where you will put the connection details:
 The database connection string, the server info, and any sitewide constants needed
 
 #### Finally ####
-
-
-
+*   Create an empty database with the same name(SS_DATABASE_NAME) as in the .env file.
+*   Open a terminal window at the root of the application, run the command `vendor/bin/sake dev/build flush=all`
+*   Map the public directory as the webservers' root and launch webserver
+*   Test the application.
